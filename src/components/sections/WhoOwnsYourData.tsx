@@ -7,7 +7,7 @@ import { GlassCard } from "@/components/ui/GlassCard";
 const contextCards = [
   { title: "NIN & SIM Registration", desc: "Biometrics mapped to every phone call." },
   { title: "Banking Apps", desc: "Financial habits silently profiled for credit scoring." },
-  { title: "Ride-Hailing", desc: "Real-time location logs of every trip taken in Lagos." },
+  { title: "Ride-Hailing", desc: "Real-time location logs of every trip taken in Ilorin." },
   { title: "Public WiFi", desc: "Unencrypted traffic exposed in cafes and hubs." }
 ];
 

@@ -39,7 +39,7 @@ export function EventShowcase() {
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-8">
               <div>
                 <h4 className="text-2xl font-bold text-white mb-2">Arcium IRL Meetup</h4>
-                <p className="text-purple-400 font-medium">Lagos, Nigeria</p>
+                <p className="text-purple-400 font-medium">Ilorin, Nigeria</p>
               </div>
             </div>
           </div>
