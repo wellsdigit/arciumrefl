@@ -28,22 +28,22 @@ export function Hero() {
       </header>
 
       {/* Main Content */}
-      <div className="flex-1 flex flex-col items-center justify-center text-center px-4 relative z-10 pb-20">
+      <div className="flex-1 flex flex-col items-center justify-center text-center px-4 md:px-8 relative z-10 pb-16 md:pb-20">
         <RevealText delay={0.1}>
-          <h1 className="text-6xl md:text-8xl lg:text-[100px] font-medium tracking-tight text-[#111111] leading-[1.1] mb-6">
+          <h1 className="text-4xl md:text-6xl lg:text-8xl xl:text-[100px] font-medium tracking-tight text-[#111111] leading-[1.1] mb-6 md:mb-8">
             I thought I was invisible.
           </h1>
         </RevealText>
 
         <RevealText delay={0.3}>
-          <p className="text-lg md:text-xl text-[#666666] max-w-2xl mx-auto mb-10 font-medium">
+          <p className="text-base md:text-lg lg:text-xl text-[#666666] max-w-2xl mx-auto mb-8 md:mb-10 font-medium leading-relaxed">
             I wasn't going to participate in this RTG. I honestly figured I had no digital footprint to find. So, I sat in my room and asked, <em>"Hey Siri, surf the internet, check for Godwin, and tell me who I am."</em> The result made me lock in instantly.
           </p>
         </RevealText>
 
         <RevealText delay={0.5}>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Button onClick={scrollToNext} variant="primary" className="min-w-[160px] text-sm">
+            <Button onClick={scrollToNext} variant="primary" className="min-w-full sm:min-w-[160px] text-sm md:text-base">
               Enter Reflection <ChevronRight className="w-4 h-4 ml-1" />
             </Button>
           </div>

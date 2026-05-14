@@ -13,26 +13,30 @@ export function ReflectionMessage() {
           </h2>
         </RevealText>
         <RevealText delay={0.1}>
-          <h3 className="text-6xl md:text-8xl font-medium tracking-tight mb-12 leading-[1.1]">
+          <h3 className="text-3xl md:text-5xl lg:text-6xl font-medium tracking-tight mb-12 leading-[1.1]">
             Privacy became<br />personal.
           </h3>
         </RevealText>
         
-        <div className="space-y-8 text-2xl md:text-3xl text-[#666666] font-medium leading-relaxed tracking-tight">
+        <div className="space-y-8 text-lg md:text-2xl lg:text-3xl text-[#666666] font-medium leading-relaxed tracking-tight">
           <RevealText delay={0.2}>
             <p>
               This exercise changed my thinking. Most people never realize their digital footprint exists until it is used against them.
             </p>
           </RevealText>
           <RevealText delay={0.3}>
+            <p className="text-[#111111] bg-white p-6 rounded-2xl border border-black/5 shadow-lg">
+              "The internet had already built a version of me without my permission."
+            </p>
+          </RevealText>
+          <RevealText delay={0.4}>
             <p>
               We often think of privacy as secrecy—something only criminals need. But privacy is really about control. It's the right to choose what the world knows about you.
             </p>
           </RevealText>
-          <RevealText delay={0.4}>
-            <p className="text-[#111111] bg-white p-6 rounded-2xl border border-black/5 shadow-lg mt-12">
-              Normal people deserve control over their information. 
-              We shouldn't have to choose between participating in the digital economy and keeping our lives private.
+          <RevealText delay={0.5}>
+            <p className="text-[#111111] bg-gradient-to-r from-[#6c44fc]/10 to-[#6c44fc]/5 p-6 rounded-2xl border border-[#6c44fc]/20 shadow-lg">
+              Normal people deserve control over their information. We shouldn't have to choose between participating in the digital economy and keeping our lives private.
             </p>
           </RevealText>
         </div>

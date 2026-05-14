@@ -13,18 +13,23 @@ export function PersonalDiscovery() {
   const discoveries = [
     {
       title: "The Exposure",
-      desc: "I discovered my personal email, my phone number, and even my company email sitting in plain text on Google. Pieces of my life were just out there, feeling completely improper.",
+      desc: "I discovered my personal email, phone number, and company email sitting in plain text on Google. But that wasn't the worst part. My profile picture from a social media account I'd abandoned years ago was indexed. Strangers could find me through a photo I'd forgotten I'd even uploaded.",
       image: "/google-search.jpeg"
     },
     {
+      title: "The Old Me",
+      desc: "I found old usernames from gaming forums, abandoned Twitter handles, forgotten facebook accounts and all still publicly linked to my real name. Each one felt like a ghost of myself online. Some had comments I didn't even remember writing. It was genuinely unsettling.",
+      image: "/first.jpeg"
+    },
+    {
       title: "The Permissions",
-      desc: "I dug into my phone's privacy settings. I found that apps which have absolutely no business knowing my location or seeing my call logs were quietly holding onto access. I was so disappointed.",
+      desc: "I dug into my phone's privacy settings. I found that apps with absolutely no business knowing my location or seeing my call logs were quietly holding onto access. Fitness trackers, weather apps, games and all are watching. I was so disappointed.",
       image: "/privacy.jpeg"
     },
     {
-      title: "The Echo",
-      desc: "The most unsettling part was the 'listening.' I would have a private conversation about buying a specific product, only to open an app minutes later and see an ad for that exact thing.",
-      image: "/echo.jpg"
+      title: "The Digital Footprint",
+      desc: "Portfolio sites, old project repositories, forgotten blog posts and all still indexed, still discoverable. Someone could piece together my entire professional history without ever meeting me. The internet had already built a version of me, and I had no control over how it was perceived.",
+      image: "/footprint.jpeg"
     }
   ];
 
@@ -131,15 +136,15 @@ export function PersonalDiscovery() {
             </h2>
           </RevealText>
           <RevealText delay={0.1}>
-            <h3 className="text-4xl md:text-5xl font-bold mb-8 text-[#111111]">
+            <h3 className="text-3xl md:text-5xl font-bold mb-8 text-[#111111]">
               I expected Siri to come back empty-handed.
             </h3>
           </RevealText>
 
-          <div className="space-y-6 text-[#444444] text-lg font-medium">
+          <div className="space-y-6 text-[#444444] text-base md:text-lg font-medium">
             <RevealText delay={0.2}>
               <p>
-                Instead, she started reading my life back to me.
+                Instead, she started reading my life back to me. Pieces I'd forgotten about. Pieces I never wanted public. Pieces that suddenly made me feel exposed in a way I couldn't ignore.
               </p>
             </RevealText>
           </div>
@@ -157,7 +162,7 @@ export function PersonalDiscovery() {
             <motion.div
               key={idx}
               variants={itemVariants}
-              className="grid lg:grid-cols-2 gap-8 md:gap-12 items-center"
+              className="grid lg:grid-cols-2 gap-6 md:gap-8 lg:gap-12 items-center"
             >
               {/* Card */}
               <motion.div
@@ -165,7 +170,7 @@ export function PersonalDiscovery() {
                 variants={cardVariants}
                 whileHover="hover"
               >
-                <GlassCard glowColor="none" className="h-full !bg-gradient-to-br from-[#6c44fc]/8 to-[#6c44fc]/3 border-[#6c44fc]/30 hover:border-[#6c44fc]/50 backdrop-blur-xl p-8 transition-all duration-300">
+                <GlassCard glowColor="none" className="h-full !bg-gradient-to-br from-[#6c44fc]/8 to-[#6c44fc]/3 border-[#6c44fc]/30 hover:border-[#6c44fc]/50 backdrop-blur-xl p-6 md:p-8 transition-all duration-300">
                   <motion.div
                     className="w-12 h-12 rounded-full bg-gradient-to-br from-[#6c44fc]/30 to-[#6c44fc]/10 flex items-center justify-center mb-6"
                     whileHover={{ scale: 1.1, rotate: 5 }}
@@ -173,8 +178,8 @@ export function PersonalDiscovery() {
                   >
                     <div className="w-4 h-4 bg-[#6c44fc] rounded-sm" />
                   </motion.div>
-                  <h4 className="text-2xl font-bold mb-4 text-[#111111]">{item.title}</h4>
-                  <p className="text-[#444444] text-base leading-relaxed font-medium">
+                  <h4 className="text-xl md:text-2xl font-bold mb-4 text-[#111111]">{item.title}</h4>
+                  <p className="text-[#444444] text-sm md:text-base leading-relaxed font-medium">
                     {item.desc}
                   </p>
                 </GlassCard>
