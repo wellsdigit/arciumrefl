@@ -72,12 +72,12 @@ export function WhatIsArcium() {
                   viewport={{ once: true, margin: "-50px" }}
                   transition={{ duration: 0.8, delay: 0.2 + idx * 0.1, ease: [0.16, 1, 0.3, 1] }}
                 >
-                  <GlassCard glowColor="none" className="h-full bg-white/10 border-white/20 hover:bg-white/20 backdrop-blur-xl p-8 group transition-all duration-500">
-                    <div className="mb-6 p-4 rounded-full bg-white/10 inline-block border border-white/10 group-hover:bg-white flex items-center justify-center transition-colors">
+                  <GlassCard glowColor="none" className="h-full !bg-white/5 border-white/10 hover:bg-white/10 backdrop-blur-xl p-8 group transition-all duration-500">
+                    <div className="mb-6 p-4 rounded-full bg-white/5 inline-block border border-white/10 group-hover:bg-white flex items-center justify-center transition-colors">
                       <Icon className="w-6 h-6 text-white group-hover:text-[#4828b8]" />
                     </div>
                     <h4 className="text-xl font-bold mb-3">{useCase.title}</h4>
-                    <p className="text-white/70 text-sm leading-relaxed font-medium">
+                    <p className="text-white/90 text-sm leading-relaxed font-medium">
                       {useCase.desc}
                     </p>
                   </GlassCard>

@@ -42,12 +42,12 @@ export function WhoOwnsYourData() {
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.8, delay: 0.1 * idx, ease: [0.16, 1, 0.3, 1] }}
             >
-              <GlassCard glowColor="none" className="h-full bg-white/10 border-white/20 hover:bg-white/20 backdrop-blur-2xl">
-                <div className="w-12 h-12 rounded-full bg-white/20 flex items-center justify-center mb-6">
+              <GlassCard glowColor="none" className="h-full !bg-white/5 border-white/10 hover:bg-white/10 backdrop-blur-2xl">
+                <div className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center mb-6">
                   <div className="w-4 h-4 bg-white rounded-sm rotate-45" />
                 </div>
                 <h4 className="text-xl font-bold mb-3">{card.title}</h4>
-                <p className="text-white/70 text-sm leading-relaxed font-medium">
+                <p className="text-white/90 text-sm leading-relaxed font-medium">
                   {card.desc}
                 </p>
               </GlassCard>
