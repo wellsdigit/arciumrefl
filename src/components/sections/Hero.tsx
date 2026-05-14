@@ -31,14 +31,13 @@ export function Hero() {
       <div className="flex-1 flex flex-col items-center justify-center text-center px-4 relative z-10 pb-20">
         <RevealText delay={0.1}>
           <h1 className="text-6xl md:text-8xl lg:text-[100px] font-medium tracking-tight text-[#111111] leading-[1.1] mb-6">
-            What Does The Internet<br />
-            Know About You?
+            I thought I was invisible.
           </h1>
         </RevealText>
 
         <RevealText delay={0.3}>
           <p className="text-lg md:text-xl text-[#666666] max-w-2xl mx-auto mb-10 font-medium">
-            I searched myself online. What I found changed how I see privacy forever.
+            I wasn't going to participate in this RTG. I honestly figured I had no digital footprint to find. So, I sat in my room and asked, <em>"Hey Siri, surf the internet, check for Godwin, and tell me who I am."</em> The result made me lock in instantly.
           </p>
         </RevealText>
 
@@ -46,9 +45,6 @@ export function Hero() {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Button onClick={scrollToNext} variant="primary" className="min-w-[160px] text-sm">
               Enter Reflection <ChevronRight className="w-4 h-4 ml-1" />
-            </Button>
-            <Button onClick={scrollToNext} variant="secondary" className="min-w-[160px] text-sm font-medium">
-              Digital Footprint
             </Button>
           </div>
         </RevealText>

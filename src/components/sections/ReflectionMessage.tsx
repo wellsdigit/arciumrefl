@@ -9,7 +9,7 @@ export function ReflectionMessage() {
       <div className="max-w-4xl mx-auto relative z-10 text-center">
         <RevealText>
           <h2 className="text-sm font-bold tracking-widest text-[#6c44fc] uppercase mb-8">
-            05. The Takeaway
+            04. The Takeaway
           </h2>
         </RevealText>
         <RevealText delay={0.1}>
@@ -41,7 +41,7 @@ export function ReflectionMessage() {
       {/* Subtle floating elements */}
       <motion.div
         animate={{ opacity: [0.1, 0.3, 0.1], scale: [1, 1.2, 1] }}
-        transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
+          transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" as const }}
         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-[#6c44fc]/5 rounded-full blur-[100px] pointer-events-none"
       />
     </section>

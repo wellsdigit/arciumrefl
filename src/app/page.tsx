@@ -1,8 +1,7 @@
 import { Hero } from "@/components/sections/Hero";
 import { PersonalDiscovery } from "@/components/sections/PersonalDiscovery";
 import { WhoOwnsYourData } from "@/components/sections/WhoOwnsYourData";
-import { WhatIsArcium } from "@/components/sections/WhatIsArcium";
-import { EventShowcase } from "@/components/sections/EventShowcase";
+import { YourTurn } from "@/components/sections/YourTurn";
 import { ReflectionMessage } from "@/components/sections/ReflectionMessage";
 import { FinalCTA } from "@/components/sections/FinalCTA";
 
@@ -12,8 +11,7 @@ export default function Home() {
       <Hero />
       <PersonalDiscovery />
       <WhoOwnsYourData />
-      <WhatIsArcium />
-      <EventShowcase />
+      <YourTurn />
       <ReflectionMessage />
       <FinalCTA />
     </main>

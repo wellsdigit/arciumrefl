@@ -56,8 +56,19 @@ export function FinalCTA() {
         <RevealText delay={0.4}>
           <div className="flex flex-col items-center justify-center mt-32">
             <img src="/logo-bottom.svg" alt="Arcium Logo" className="w-10 h-10 mb-4 opacity-60 invert" />
-            <p className="text-white/50 text-sm font-medium tracking-wider uppercase">
+            <p className="text-white/50 text-sm font-medium tracking-wider uppercase mb-6">
               Built for the RTG Reflection Quest. Powered by Arcium.
+            </p>
+            <p className="text-white/40 text-xs font-medium">
+              A personal audit prompted by{" "}
+              <a 
+                href="https://twitter.com/arcium" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-purple-400 hover:text-purple-300 transition-colors underline"
+              >
+                @Arcium
+              </a>
             </p>
           </div>
         </RevealText>

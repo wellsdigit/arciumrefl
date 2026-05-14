@@ -70,7 +70,7 @@ export function WhatIsArcium() {
                   initial={{ opacity: 0, scale: 0.95, y: 30 }}
                   whileInView={{ opacity: 1, scale: 1, y: 0 }}
                   viewport={{ once: true, margin: "-50px" }}
-                  transition={{ duration: 0.8, delay: 0.2 + idx * 0.1, ease: [0.16, 1, 0.3, 1] }}
+                  transition={{ duration: 0.8, delay: 0.2 + idx * 0.1, ease: [0.16, 1, 0.3, 1] as const }}
                 >
                   <GlassCard glowColor="none" className="h-full !bg-white/5 border-white/10 hover:bg-white/10 backdrop-blur-xl p-8 group transition-all duration-500">
                     <div className="mb-6 p-4 rounded-full bg-white/5 inline-block border border-white/10 group-hover:bg-white flex items-center justify-center transition-colors">
